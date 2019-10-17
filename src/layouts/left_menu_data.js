@@ -14,6 +14,11 @@ const left_menu_data = [
     to: '/clipboard',
     img:'../../static/img/clipboard.png'
   },
+  {
+    label: 'Echarts词云',
+    to: '/wordcloud',
+    img:'../../static/img/wordcloud.png'
+  },
 ]
 
 export {left_menu_data}

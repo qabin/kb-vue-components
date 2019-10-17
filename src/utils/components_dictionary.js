@@ -13,4 +13,11 @@ export const components_list = [
     url: '/clipboard',
     course:""
   },
+  {
+    img: '../static/img/wordcloud.png',
+    title: 'Echarts词云控件',
+    description: 'Echarts词云控件，可方便的对词组进行可视化的显示。',
+    url: '/wordcloud',
+    course:""
+  },
 ]

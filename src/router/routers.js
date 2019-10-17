@@ -34,6 +34,13 @@ export default [
           page: () => import('../pages/clipboard/index')
         }
       },
+      {
+        path: '/wordcloud',
+        components: {
+          left, header,
+          page: () => import('../pages/wordcloud/index')
+        }
+      },
     ]
   },
 ]
