@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import Quasar from './plugins/quasar'
 import './css/theme'
+import Clipboard from './plugins/clipboard'
+import Notify from './plugins/PpNotify'
 
 Vue.config.productionTip = false
 
@@ -19,7 +21,7 @@ const app = {
 };
 
 
-[Quasar].forEach(plugin => plugin({
+[Quasar, Clipboard, Notify].forEach(plugin => plugin({
   app,
   router,
   Vue

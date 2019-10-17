@@ -27,6 +27,13 @@ export default [
           page: () => import('../pages/diff/index')
         }
       },
+      {
+        path: '/clipboard',
+        components: {
+          left, header,
+          page: () => import('../pages/clipboard/index')
+        }
+      },
     ]
   },
 ]

@@ -6,38 +6,42 @@ export default {
   methods: {
     render_module_item(h, d) {
       return h('div', {
-        staticClass: 'pp-border-4 cursor-pointer pp-intro-div q-pa-sm',
+        staticClass: 'q-pa-sm',
         style: {
           height: '160px',
-          width:'400px'
+          width: '400px'
         },
-        on: {
-          click: () => this.$router.push({path: d.url})
-        }
       }, [
         h('div', {
-          staticClass: 'q-mt-sm row no-wrap items-center'
+          staticClass: 'pp-border-4 cursor-pointer pp-intro-div q-pa-sm full-height',
+          on: {
+            click: () => this.$router.push({path: d.url})
+          }
         }, [
-          h('img', {
-            style: {
-              width: '40px',
-              height: '40px',
-              borderRadius:'50%'
-            },
-            attrs: {
-              src: d.img
-            }
-          }),
           h('div', {
-            staticClass: 'q-ml-sm text-weight-bold text-tertiary font-20'
+            staticClass: 'row no-wrap items-center'
           }, [
-            d.title
+            h('img', {
+              style: {
+                width: '40px',
+                height: '40px',
+                borderRadius: '50%'
+              },
+              attrs: {
+                src: d.img
+              }
+            }),
+            h('div', {
+              staticClass: 'q-ml-sm text-weight-bold text-tertiary font-20'
+            }, [
+              d.title
+            ]),
           ]),
-        ]),
-        h('div', {
-          staticClass: 'text-weight-medium text-faded font-13 q-mt-sm'
-        }, [
-          d.description
+          h('div', {
+            staticClass: 'text-weight-medium text-faded font-13 q-mt-sm'
+          }, [
+            d.description
+          ])
         ])
       ])
     },

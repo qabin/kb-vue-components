@@ -15,6 +15,7 @@
     "sortablejs": "^1.10.0-rc3",
     "text-loader": "0.0.1",
     "vue": "^2.5.2",
+    "vue-clipboard2": "^0.3.1",
     "vue-code-diff": "0.0.4",
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.1",

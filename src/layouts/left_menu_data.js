@@ -9,6 +9,11 @@ const left_menu_data = [
     to: '/diff',
     img:'../../static/img/diff.png'
   },
+  {
+    label: '复制文件',
+    to: '/clipboard',
+    img:'../../static/img/clipboard.png'
+  },
 ]
 
 export {left_menu_data}
