@@ -5,6 +5,11 @@ const left_menu_data = [
     img:'../../static/img/home.png'
   },
   {
+    label: '高亮编译器',
+    to: '/ace',
+    img:'../../static/img/ace.png'
+  },
+  {
     label: '文本对比',
     to: '/diff',
     img:'../../static/img/diff.png'

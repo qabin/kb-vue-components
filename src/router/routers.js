@@ -41,6 +41,13 @@ export default [
           page: () => import('../pages/wordcloud/index')
         }
       },
+      {
+        path: '/ace',
+        components: {
+          left, header,
+          page: () => import('../pages/ace/index')
+        }
+      },
     ]
   },
 ]

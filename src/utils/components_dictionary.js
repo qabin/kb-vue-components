@@ -1,5 +1,12 @@
 export const components_list = [
   {
+    img: '../static/img/ace.png',
+    title: 'ACE代码高亮编译器',
+    description: '使用Brace插件实现代码高亮编辑器，方便你实现在线的代码编写工具。',
+    url: '/ace',
+    course:""
+  },
+  {
     img: '../static/img/diff.png',
     title: '文本比对控件',
     description: '前端文本比对找了几个库: 分别是: CodeMirror、DiffMatchPatch、Mergely、vue-code-diff，最后选择用：vue-code-diff。',
