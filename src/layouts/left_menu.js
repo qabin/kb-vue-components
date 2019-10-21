@@ -40,8 +40,12 @@ export default {
               }
             }),
           ]),
-
-        h('q-tooltip', {props: {offset: [18, 0]}}, m.label)
+        h('q-tooltip', {
+          props: {
+            offset: [10, 20],
+            anchor: 'bottom right',
+          }
+        }, m.label)
       ])
     }
   },
