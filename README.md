@@ -1,12 +1,12 @@
 # kb-vue-components
 
 ## 项目介绍
-> 该项目致力于收录常用的VUE前端组件，并给大家展示相应的使用示例。方便小伙伴，找到合适的控件，并快速上手。
+> 该项目致力于收录常用的VUE前端组件，并给大家展示相应的使用示例。方便小伙伴们找到合适的控件，并快速上手。
 	
 
 ## 使用教程
  - [Vue前端代码高亮编辑器Ace](https://blog.csdn.net/a787373009/article/details/102665946)
- - [Vue使用echarts-wordcloud生成词云](hhttps://blog.csdn.net/a787373009/article/details/102615282)
+ - [Vue使用echarts-wordcloud生成词云](https://blog.csdn.net/a787373009/article/details/102615282)
  - [Vue前端复制文本功能vue-clipboard2](https://blog.csdn.net/a787373009/article/details/102614291)
  - [Vue前端文本对比DIFF](https://blog.csdn.net/a787373009/article/details/102612947)
 
