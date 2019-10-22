@@ -1,4 +1,4 @@
-import {components_list} from "../../utils/components_dictionary";
+import {left_menu_data} from "../../layouts/left_menu_data";
 
 export default {
   name: 'home_index',
@@ -49,7 +49,7 @@ export default {
       return h('div', {
         staticClass: 'row col-12 q-pa-sm'
       }, [
-        components_list.map(d => [this.render_module_item(h, d)])
+        left_menu_data.filter(d => !d.home_hide).map(d => [this.render_module_item(h, d)])
       ])
     },
   },
