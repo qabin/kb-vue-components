@@ -55,6 +55,13 @@ export default [
           page: () => import('../pages/vuetouch/index')
         }
       },
+      {
+        path: '/echarts',
+        components: {
+          left, header,
+          page: () => import('../pages/echarts/index')
+        }
+      },
     ]
   },
 ]

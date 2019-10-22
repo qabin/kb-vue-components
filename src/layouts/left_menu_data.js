@@ -34,6 +34,15 @@ const left_menu_data = [
     course: ""
   },
   {
+    label: 'Echarts控件',
+    to: '/echarts',
+    img: '../../static/icon/echarts.png',
+    title: 'Echarts图形控件',
+    description: 'Echarts图形控件，可方便的对数据进行可视化的展示，支持折线、柱状、圆形等多种图表。',
+    url: '/echarts',
+    course: ""
+  },
+  {
     label: '复制文件',
     to: '/clipboard',
     img: '../../static/icon/clipboard.png',
