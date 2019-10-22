@@ -48,6 +48,13 @@ export default [
           page: () => import('../pages/ace/index')
         }
       },
+      {
+        path: '/vuetouch',
+        components: {
+          left, header,
+          page: () => import('../pages/vuetouch/index')
+        }
+      },
     ]
   },
 ]

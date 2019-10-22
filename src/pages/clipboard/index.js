@@ -14,25 +14,26 @@ export default {
   },
   render(h) {
     return h('div', {
-      staticClass: 'row no-wrap q-pa-sm'
+      staticClass: 'items-center text-center q-pa-sm'
     }, [
       h('div', {
         staticClass: 'pp-border-4 q-pa-sm text-tertiary test-weight-medium'
       }, [
-        this.value
-      ]),
-      h('q-btn', {
-        props: {
-          label: '点击复制',
-          flat: true,
-          color: 'primary'
-        },
-        on: {
-          click: () => {
-            this.copy_value()
+        this.value,
+        h('q-btn', {
+          props: {
+            label: '点击复制',
+            flat: true,
+            color: 'primary'
+          },
+          on: {
+            click: () => {
+              this.copy_value()
+            }
           }
-        }
-      })
+        })
+      ]),
+
     ])
   }
 }

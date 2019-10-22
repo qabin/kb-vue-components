@@ -22,6 +22,7 @@
     "vue-code-diff": "0.0.4",
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.1",
+    "vue-touch": "^2.0.0-beta.4",
     "vuedraggable": "^2.23.0"
   },
   "devDependencies": {

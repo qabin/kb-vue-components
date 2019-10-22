@@ -167,12 +167,17 @@ export default {
     this.init_view_data()
   },
   render(h) {
-    return h('div', {
-      attrs: {id: 'word_cloud_view_id'},
-      style: {
-        height: '400px',
-        width: '400px'
-      }
-    })
+    return h('div',{
+      staticClass:'items-center text-center col-grow'
+    },[
+      h('div', {
+        attrs: {id: 'word_cloud_view_id'},
+        style: {
+          height: '400px',
+          width: '400px',
+          margin:'0 auto'
+        }
+      })
+    ])
   }
 }
