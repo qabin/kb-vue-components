@@ -15,7 +15,7 @@ const left_menu_data = [
     img:'../../static/icon/diff.png'
   },
   {
-    label: '手机滑动事件',
+    label: '手机事件',
     to: '/vuetouch',
     img:'../../static/icon/vuetouch.png'
   },

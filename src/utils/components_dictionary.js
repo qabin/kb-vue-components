@@ -15,8 +15,8 @@ export const components_list = [
   },
   {
     img: '../static/icon/vuetouch.png',
-    title: '手机滑动事件',
-    description: '使用vue-touch插件手机滑动事件的处理，可方便实现手机端各种手势事件的监听处理。',
+    title: '手机事件监听',
+    description: '使用vue-touch插件手机事件的处理，可方便实现手机端各种手势事件的监听处理。',
     url: '/vuetouch',
     course:""
   },
