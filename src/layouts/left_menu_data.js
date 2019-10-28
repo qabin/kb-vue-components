@@ -6,11 +6,19 @@ const left_menu_data = [
     home_hide: true
   },
   {
+    label: '数据格式化',
+    to: '/vue_data_editor',
+    img: '../../static/icon/vue_data_editor.png',
+    title: '数据格式化编辑器',
+    description: '使用Brace插件实现代码高亮编辑器，方便你实现在线的数据格式化编辑与显示的工具。',
+    url: '/vue_data_editor',
+    course: ""
+  },
+  {
     label: '高亮编译器',
     to: '/ace',
     img: '../../static/icon/ace.png',
-    // img: '../static/icon/ace.png',
-    title: 'ACE代码高亮编译器',
+    title: 'ACE代码高亮编辑器',
     description: '使用Brace插件实现代码高亮编辑器，方便你实现在线的代码编写工具。',
     url: '/ace',
     course: ""

@@ -62,6 +62,13 @@ export default [
           page: () => import('../pages/echarts/index')
         }
       },
+      {
+        path: '/vue_data_editor',
+        components: {
+          left, header,
+          page: () => import('../pages/vue_data_editor/index')
+        }
+      },
     ]
   },
 ]
