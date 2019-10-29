@@ -10,7 +10,7 @@ const left_menu_data = [
     to: '/vue_data_editor',
     img: '../../static/icon/vue_data_editor.png',
     title: '数据格式化编辑器',
-    description: '使用Brace插件实现代码高亮编辑器，方便你实现在线的数据格式化编辑与显示的工具。',
+    description: '数据格式化编辑器，方便你实现在线的数据格式化编辑与显示的工具。支持的数据格式包括：JSON、HTML、XML',
     url: '/vue_data_editor',
     course: ""
   },

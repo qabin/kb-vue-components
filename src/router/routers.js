@@ -69,6 +69,13 @@ export default [
           page: () => import('../pages/vue_data_editor/index')
         }
       },
+      {
+        path: '/vuelidate',
+        components: {
+          left, header,
+          page: () => import('../pages/vuelidate/index')
+        }
+      },
     ]
   },
 ]
