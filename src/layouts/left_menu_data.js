@@ -68,6 +68,15 @@ const left_menu_data = [
     url: '/wordcloud',
     course: ""
   },
+  {
+    label: 'Vuelidate表单验证',
+    to: '/vuelidate',
+    img: '../../static/icon/vuelidate.png',
+    title: 'Vuelidate表单验证',
+    description: 'Vuelidate控件，可以方便的实现表单验证功能',
+    url: '/vuelidate',
+    course: ""
+  },
 ]
 
 export {left_menu_data}
