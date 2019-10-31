@@ -108,9 +108,8 @@ export default {
               if (this.$v.model.login_pwd.$error) {
                 this.error_msg = "提示：请输入密码"
               }
-
-              console.log(this.$v.model)
               if (!this.$v.model.$error) {
+                this.error_msg = null
                 this.$q.ok("登录成功！")
               }
             },

@@ -77,6 +77,15 @@ const left_menu_data = [
     url: '/vuelidate',
     course: ""
   },
+  {
+    label: '百度搜索控件',
+    to: '/baidu_search',
+    img: '../../static/icon/baidu_search.png',
+    title: '百度搜索控件',
+    description: '仿百度搜索实现的一个搜索功能控件，主要包括：自动提示、历史记录等功能',
+    url: '/baidu_search',
+    course: ""
+  },
 ]
 
 export {left_menu_data}

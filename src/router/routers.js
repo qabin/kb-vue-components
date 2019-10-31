@@ -76,6 +76,13 @@ export default [
           page: () => import('../pages/vuelidate/index')
         }
       },
+      {
+        path: '/baidu_search',
+        components: {
+          left, header,
+          page: () => import('../pages/baidu_search/index')
+        }
+      },
     ]
   },
 ]
